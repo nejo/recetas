@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false" android:orientation="vertical">
+    <TextView android:text="Nombre" android:layout_height="wrap_content" android:id="@+id/nombreValue" android:layout_width="fill_parent"></TextView>
+    <EditText android:id="@+id/nombreInput" android:layout_height="50dip" android:layout_below="@+id/nombreValue" android:layout_alignLeft="@+id/nombreValue" android:layout_width="fill_parent"></EditText>
+    <TextView android:text="Ingredientes" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_below="@+id/nombreInput" android:layout_alignLeft="@+id/nombreInput"></TextView>
+    <Spinner android:id="@+id/ingredientesSelect" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/textView2" android:layout_height="50dip" android:layout_width="fill_parent"></Spinner>
+    <TextView android:text="" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/ingredientesList" android:layout_below="@+id/ingredientesSelect" android:layout_alignLeft="@+id/ingredientesSelect" android:layout_alignRight="@+id/ingredientesSelect" android:ellipsize="marquee" android:padding="2px" android:typeface="monospace" android:textStyle="italic"></TextView>
+    <TextView android:text="Elaboración" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textElaboracion" android:layout_below="@+id/ingredientesList" android:layout_alignLeft="@+id/ingredientesList" android:layout_alignRight="@+id/ingredientesList"></TextView>
+    <EditText android:layout_below="@+id/textElaboracion" android:text="" android:layout_alignLeft="@+id/textElaboracion" android:id="@+id/elaboracionInput" android:layout_width="fill_parent" android:layout_height="200dip" android:gravity="top"></EditText>
+    <Button android:layout_height="50dip" android:text="Guardar" android:layout_width="wrap_content" android:id="@+id/buttonSave" android:layout_below="@+id/elaboracionInput" android:layout_alignLeft="@+id/elaboracionInput" android:layout_alignRight="@+id/elaboracionInput"></Button>
+</RelativeLayout>

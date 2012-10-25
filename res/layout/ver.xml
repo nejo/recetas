@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:baselineAligned="false"
+	android:orientation="vertical">
+	<TextView android:textStyle="italic" android:layout_width="fill_parent" android:text="TextView" android:typeface="monospace" android:ellipsize="marquee" android:padding="2px" android:layout_height="wrap_content" android:id="@+id/ingredientesList" android:layout_below="@+id/ingredientesLabel" android:layout_alignLeft="@+id/ingredientesLabel" android:layout_alignRight="@+id/ingredientesLabel"></TextView>
+	<TextView android:text="Nombre" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:id="@+id/nombreValue" android:layout_width="fill_parent"></TextView>
+	<TextView android:layout_width="fill_parent" android:text="Ingredientes" android:layout_height="wrap_content" android:id="@+id/ingredientesLabel" android:layout_below="@+id/nombreValue" android:layout_alignLeft="@+id/nombreValue" android:layout_alignRight="@+id/nombreValue"></TextView>
+	<TextView android:layout_width="fill_parent" android:text="Elaboración" android:layout_height="wrap_content" android:id="@+id/elaboracionLabel" android:layout_below="@+id/ingredientesList" android:layout_alignLeft="@+id/ingredientesList" android:layout_alignRight="@+id/ingredientesList"></TextView>
+	<TextView android:layout_width="wrap_content" android:text="elabora" android:layout_below="@+id/elaboracionLabel" android:layout_height="wrap_content" android:id="@+id/elaboracionValue" android:layout_alignLeft="@+id/elaboracionLabel"></TextView>
+	
+</RelativeLayout>

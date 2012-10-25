@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Recetas</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada neque vitae eros lobortis accumsan. Nulla condimentum malesuada elit ut feugiat. Cras sed egestas libero. Nullam id venenatis magna. Proin molestie turpis vel ipsum hendrerit ultrices. Donec pretium metus vel tortor tincidunt consequat. Morbi eget leo non urna venenatis lacinia eu non lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tortor nisl, sollicitudin eget scelerisque et, accumsan eu enim. Curabitur pellentesque hendrerit enim, sed semper enim facilisis vel. Morbi pretium egestas augue, et egestas nibh ultrices sed. Nulla elementum euismod quam, elementum feugiat nulla egestas ac. Nam eleifend velit et lorem semper tempor.</string>
+</resources>
